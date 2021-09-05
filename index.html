@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+          <div
+            class="
+              d-flex
+              flex-column
+              align-items-center align-items-sm-start
+              px-3
+              pt-2
+              text-white
+              min-vh-100
+            "
+            style="position: fixed"
+          >
+            <ul
+              class="
+                nav nav-pills
+                flex-column
+                mb-sm-auto mb-0
+                align-items-center align-items-sm-start
+              "
+              id="menu"
+            >
+              <img src="assets/kyle.jpg" width="120" class="rounded-circle" />
+              <li class="nav-item">
+                <a
+                  href="#about"
+                  class="nav-link align-middle px-0"
+                  style="color: white"
+                >
+                  <i class="fs-4 bi-house"></i>
+                  <span class="ms-1 d-none d-sm-inline"
+                    ><i class="fa fa-user"></i> About</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="#projects"
+                  class="nav-link align-middle px-0"
+                  style="color: white"
+                >
+                  <span class="ms-1 d-none d-sm-inline"
+                    ><i class="fa fa-code"></i> Projects</span
+                  >
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#resume"
+                  class="nav-link align-middle px-0"
+                  style="color: white"
+                >
+                  <span class="ms-1 d-none d-sm-inline"
+                    ><i class="fa fa-file-pdf-o"></i> Resume</span
+                  >
+                </a> </li
+              ><li class="nav-item">
+                <a
+                  href="http://github.com/kchap007-odu"
+                  class="nav-link align-middle px-0"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  style="color: gray"
+                >
+                  <span class="ms-1 d-none d-sm-inline"
+                    ><i class="fa fa-github"></i> GitHub</span
+                  >
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href=""
+                  class="nav-link align-middle px-0"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  style="color: gray"
+                >
+                  <span class="ms-1 d-none d-sm-inline"
+                    ><i class="fa fa-linkedin-square"></i> Linked In</span
+                  >
+                </a>
+              </li>
+            </ul>
+            <hr />
+            <div class="dropdown pb-4">
+              <a
+                href="https://odu.edu/compsci"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src="assets/odu-sig-noidea-fullcolor.png" width="120" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col py-3">
+          <h2 id="about">About Me</h2>
+          <p>
+            Kyle Chappell is a Master of Science in Computer Science student at
+            Old Dominion University. He received a Bachelor of Science in
+            Science from Virginia Commonwealth University in December of 2015
+            and received his Bachelor of Science in Computer Science from Old
+            Dominion University in August of 2021. He is currently employed
+            full-time and has experience with Python, C, C++, Java, PHP,
+            HTML/CSS, SQL, and R.
+          </p>
+          <h2 id="projects">Past Projects</h2>
+
+          <h4>CS 410 Course Website</h4>
+          <dl class="row">
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Website for CS 410 course developed as a team. Kyle was
+              responsible for the HTML/CSS layout design and the JavaScript
+              animations.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">HTML/CSS, JavaScript</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/cs410-website"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code
+              </a></dd
+            >
+
+            <h4>Producer/Consumer</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Course project for CS 471. Implementation of a multi-threaded
+              producer/consumer idiom written in C.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">C</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/prodcons"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code
+              </a></dd
+            >
+
+            <h4>Virtual Memory Management Simulator</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Course project for CS 471. Implementation of a virtual memory
+              management simulator in C to simulate different caching
+              mechanisms.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">C</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/vememman"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code</a
+              ></dd
+            >
+
+            <h4>Linear System Solver</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Course project for CS 517. Reads in data of CPU core temperatures
+              and performs a linear fit by constructing a matrix and solving for
+              reduced row echelon form.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">Python</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/cs517-semester-project"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code</a
+              ></dd
+            >
+
+            <h4>Traffic Light Simulator</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Project for CS 250. Simulates cars driving on a road and stopping
+              at a traffic light.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">C++</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/traffic-sim"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code
+              </a></dd
+            >
+
+            <h4>Port Simulator</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Project for CS 250. Simulates freight ships loading and unloading
+              cargo in a series of warehouses.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">C++</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/port-sim"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code
+              </a></dd
+            >
+
+            <h4>Agent X</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Project for CS 250. A player piece navigates autonomously through
+              a field with obstacles.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">C++</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/agent-x"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code
+              </a></dd
+            >
+
+            <h4>Settlers</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Project for CS 250. Simulates a two-player game where players
+              gain resources and build settlements.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">C++</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/settlers"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code
+              </a></dd
+            >
+
+            <h4>Interactive Student Enrollment Database</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Course project for CS 550. Allows for account creation,
+              authentication, and management of a student's enrollment in
+              courses.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">PHP, MySQL, HTML/CSS</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/enrollment-database"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code</a
+              ></dd
+            >
+
+            <h4>Smart Home API Simulator</h4>
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9"
+              >Course project for CS 411W. Models a smart home API based on
+              Honeywell Home and simulates smart device statuses and REST-ful
+              API calls through a Flask server.</dd
+            >
+
+            <dt class="col-sm-3">Language(s)</dt>
+            <dd class="col-sm-9">Python</dd>
+
+            <dt class="col-sm-3">GitHub</dt>
+            <dd class="col-sm-9"
+              ><a
+                href="https://github.com/kchap007-odu/cs411w"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Source code</a
+              ></dd
+            >
+          </dl>
+
+          <h2 id="resume">Resume</h2>
+          <iframe src="assets/resume.pdf"></iframe>
+          <br />
+
+          <a
+            href="assets/resume.pdf"
+            class="btn btn-primary"
+            role="button"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Download</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
